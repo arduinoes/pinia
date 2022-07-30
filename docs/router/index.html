@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Router | Curso Pinia</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    
+    <meta name="description" content="Nivel principiantes">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/pinia/assets/css/0.styles.5c46d705.css" as="style"><link rel="preload" href="/pinia/assets/js/app.149c763a.js" as="script"><link rel="preload" href="/pinia/assets/js/2.28fe4953.js" as="script"><link rel="preload" href="/pinia/assets/js/12.6cc2c4ce.js" as="script"><link rel="prefetch" href="/pinia/assets/js/10.e67f6d1e.js"><link rel="prefetch" href="/pinia/assets/js/11.3309694d.js"><link rel="prefetch" href="/pinia/assets/js/13.d80aa8a3.js"><link rel="prefetch" href="/pinia/assets/js/14.4714e917.js"><link rel="prefetch" href="/pinia/assets/js/15.3d01d2a3.js"><link rel="prefetch" href="/pinia/assets/js/3.48ae7e51.js"><link rel="prefetch" href="/pinia/assets/js/4.010f4d26.js"><link rel="prefetch" href="/pinia/assets/js/5.009f7950.js"><link rel="prefetch" href="/pinia/assets/js/6.60c067ee.js"><link rel="prefetch" href="/pinia/assets/js/7.7becee71.js"><link rel="prefetch" href="/pinia/assets/js/8.4d4407a9.js"><link rel="prefetch" href="/pinia/assets/js/9.4b51acc1.js">
+    <link rel="stylesheet" href="/pinia/assets/css/0.styles.5c46d705.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/pinia/" class="home-link router-link-active"><!----> <span class="site-name">Curso Pinia</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/pinia/vite/" class="nav-link">
+  Vite
+</a></div><div class="nav-item"><a href="/pinia/setup/" class="nav-link">
+  setup Firebase
+</a></div><div class="nav-item"><a href="/pinia/pinia/" class="nav-link">
+  Pinia Firebase
+</a></div><div class="nav-item"><a href="/pinia/auth/" class="nav-link">
+  Auth Firebase
+</a></div><div class="nav-item"><a href="/pinia/router/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Rutas Dinámicas
+</a></div><div class="nav-item"><a href="/pinia/formulario/" class="nav-link">
+  Formulario
+</a></div><div class="nav-item"><a href="/pinia/md/" class="nav-link">
+  MarkDown
+</a></div><div class="nav-item"><a href="https://www.youtube.com/playlist?list=PLgh8bcLDakt3oPmNoEfdfF4yd2b6KNCUX" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Canal Youtube
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/pinia/vite/" class="nav-link">
+  Vite
+</a></div><div class="nav-item"><a href="/pinia/setup/" class="nav-link">
+  setup Firebase
+</a></div><div class="nav-item"><a href="/pinia/pinia/" class="nav-link">
+  Pinia Firebase
+</a></div><div class="nav-item"><a href="/pinia/auth/" class="nav-link">
+  Auth Firebase
+</a></div><div class="nav-item"><a href="/pinia/router/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Rutas Dinámicas
+</a></div><div class="nav-item"><a href="/pinia/formulario/" class="nav-link">
+  Formulario
+</a></div><div class="nav-item"><a href="/pinia/md/" class="nav-link">
+  MarkDown
+</a></div><div class="nav-item"><a href="https://www.youtube.com/playlist?list=PLgh8bcLDakt3oPmNoEfdfF4yd2b6KNCUX" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Canal Youtube
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Router</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pinia/router/#configuracion" class="sidebar-link">Configuración</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/pinia/router/#router-index-js" class="sidebar-link">router &gt; index.js</a></li><li class="sidebar-sub-header"><a href="/pinia/router/#componentes-basecard-js" class="sidebar-link">Componentes &gt; BaseCard.js</a></li><li class="sidebar-sub-header"><a href="/pinia/router/#vista-detalleobra" class="sidebar-link">Vista DetalleObra</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="router"><a href="#router" class="header-anchor">#</a> Router</h1> <h2 id="configuracion"><a href="#configuracion" class="header-anchor">#</a> Configuración</h2> <h3 id="router-index-js"><a href="#router-index-js" class="header-anchor">#</a> router &gt; index.js</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">{</span>
+  path<span class="token operator">:</span> <span class="token string">&quot;/detalle-obra/:id&quot;</span><span class="token punctuation">,</span>
+  name<span class="token operator">:</span> <span class="token string">&quot;DetalleObra&quot;</span><span class="token punctuation">,</span>
+  props<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">component</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">import</span><span class="token punctuation">(</span><span class="token string">&quot;../views/DetalleObra.vue&quot;</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre></div><h3 id="componentes-basecard-js"><a href="#componentes-basecard-js" class="header-anchor">#</a> Componentes &gt; BaseCard.js</h3> <p>Añade el parámetro <strong>obra.id</strong> a la ruta <strong>DetalleObra</strong></p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>router-link</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>btn btn-primary<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:to</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>{ name: <span class="token punctuation">'</span>DetalleObra<span class="token punctuation">'</span>, params: { id: obra.id }}<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  Leer mas 
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>router-link</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="vista-detalleobra"><a href="#vista-detalleobra" class="header-anchor">#</a> Vista DetalleObra</h3> <p>Importamos el módulo <strong>useRoute</strong></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> useRoute <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vue-router'</span>
+</code></pre></div><p>Guardamos la función</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> route <span class="token operator">=</span> <span class="token function">useRoute</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre></div><p>Obtenemos el parámetro</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> id <span class="token operator">=</span> route<span class="token punctuation">.</span>params<span class="token punctuation">.</span>id
+</code></pre></div><p>Lo utilizamos en la función para obtener el objeto</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> docRef <span class="token operator">=</span> <span class="token function">doc</span><span class="token punctuation">(</span>db<span class="token punctuation">,</span> <span class="token string">&quot;obras&quot;</span><span class="token punctuation">,</span> id<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> <span class="token punctuation">{</span> onMounted<span class="token punctuation">,</span> ref<span class="token punctuation">,</span> reactive <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;vue&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useRoute <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vue-router'</span>
+<span class="token keyword">import</span> BaseDetalle <span class="token keyword">from</span> <span class="token string">&quot;../components/BaseDetalle.vue&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Navbar <span class="token keyword">from</span> <span class="token string">&quot;../components/Navbar.vue&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> doc<span class="token punctuation">,</span> getDoc <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;firebase/firestore&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> db <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;../firebase&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> route <span class="token operator">=</span> <span class="token function">useRoute</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> id <span class="token operator">=</span> route<span class="token punctuation">.</span>params<span class="token punctuation">.</span>id
+
+<span class="token keyword">const</span> state <span class="token operator">=</span> <span class="token function">reactive</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  obra<span class="token operator">:</span> <span class="token keyword">null</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">obtenerDatoID</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">const</span> docRef <span class="token operator">=</span> <span class="token function">doc</span><span class="token punctuation">(</span>db<span class="token punctuation">,</span> <span class="token string">&quot;obras&quot;</span><span class="token punctuation">,</span> id<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> docSnap <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">getDoc</span><span class="token punctuation">(</span>docRef<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>docSnap<span class="token punctuation">.</span><span class="token function">exists</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        state<span class="token punctuation">.</span>obra <span class="token operator">=</span> docSnap<span class="token punctuation">.</span><span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        state<span class="token punctuation">.</span>obra<span class="token punctuation">.</span>id <span class="token operator">=</span> docSnap<span class="token punctuation">.</span>id
+        console<span class="token punctuation">.</span><span class="token function">log</span> <span class="token punctuation">(</span>state<span class="token punctuation">.</span>obra<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span> 
+        <span class="token keyword">else</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;¡No existe el documento!&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token function">onMounted</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+   <span class="token function">obtenerDatoID</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h4 id="template"><a href="#template" class="header-anchor">#</a> template</h4> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Navbar</span> <span class="token punctuation">/&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>row justify-content-center<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>BaseDetalle</span> 
+      <span class="token attr-name">:obra</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>state.obra<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dir</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text-center<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>router-link</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>btn btn-primary<span class="token punctuation">&quot;</span></span> <span class="token attr-name">to</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>/<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Volver<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>router-link</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dir</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/pinia/assets/js/app.149c763a.js" defer></script><script src="/pinia/assets/js/2.28fe4953.js" defer></script><script src="/pinia/assets/js/12.6cc2c4ce.js" defer></script>
+  </body>
+</html>
